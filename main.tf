@@ -1,7 +1,3 @@
-provider "aws" {
-  region                  = "us-east-1"
-  shared_credentials_file = "/Users/iandreev/.aws/credentials"
-}
 
 data "aws_ami" "latest_ubuntu" {
   owners      = ["099720109477"]
